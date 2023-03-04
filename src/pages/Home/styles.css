@@ -1,0 +1,40 @@
+.box{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+  list-style: none;
+}
+.box li{
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 13px;
+  border-radius: 4px;
+}
+.box img{
+  max-width: 280px;
+  max-height: 220px;
+  border-radius: 4px;
+  box-shadow: 5px 5px #ccc;
+}
+.box strong{
+  line-height: 16px;
+  margin-top: 10px;
+  font-size: 16px;
+  color: #191919;
+}
+.box button{
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  background-color:#3742fa ;
+}
+.box button div{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}

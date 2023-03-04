@@ -1,0 +1,48 @@
+.header-reservas{
+  display: flex;
+   justify-content: space-between;
+}
+.title{
+  text-align: center;
+  color: #ccc;
+}
+.reservas{
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border: 2px solid #ccc;
+}
+.reservas strong{
+  width: 150px;
+}
+.reservas img{
+  height: 100px;
+}
+.reservas button{
+  border: 0;
+  background: #fff;
+}
+footer button{
+  border: 0;
+  display: flex;
+  padding: 10px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.reservas #amount {
+  display: flex;
+  align-items: center;
+}
+.reservas #amount input{
+  border: 1px solid #eee;
+  border-radius: 4px;
+  color: #242424;
+  padding: 5px;
+  width: 45px;
+}
