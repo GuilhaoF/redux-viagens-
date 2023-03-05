@@ -18,12 +18,15 @@ export default function Reservas() {
   function handleIncrementAmount(trip) {
     dispatch(updateAmountReserveRequest(trip.id, trip.amount + 1));
   }
+  function handleBackHome() {
+    window.location.href = "/";
+  }
 
   return (
     <div>
       <div className="header-reservas">
         <h1>Lista de Reservas</h1>
-        <h1 className="title">({reserves.length}) Reservas</h1>
+        <h1 className="title">{reserves.length} Reservas</h1>
       </div>
       {reserves.map((reserve) => (
         <div className="reservas" key={reserve.id}>
@@ -46,7 +49,9 @@ export default function Reservas() {
       ))}
 
       <footer>
-        <button type="button">Solicitar Reservas</button>
+        <button type="button" onClick={handleBackHome}>
+          Solicitar Reservas
+        </button>
       </footer>
     </div>
   );

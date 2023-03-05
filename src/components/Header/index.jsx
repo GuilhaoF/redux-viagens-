@@ -7,7 +7,7 @@ export default function Header() {
     <header className="header-container">
       <Link to="/">Rdux - Hotel</Link>
       <Link to="/reservas" className="reserva">
-        Reservas
+        Minhas Reservas
       </Link>
     </header>
   );
