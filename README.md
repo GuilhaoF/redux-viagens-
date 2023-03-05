@@ -1,5 +1,5 @@
 <h1 align="center" id="top">
-  <img alt="icone-calc-imc" title="redux-caixa" width="300px"  src="https://user-images.githubusercontent.com/67026555/213871018-4d6a900f-e4f0-439c-a741-bac30b23f103.png" />
+  <img alt="icone-agencia-viagens" title="agencia-viagem-logo" width="300px"  src="https://user-images.githubusercontent.com/67026555/222970150-54fbeb6e-2909-4008-a721-a71c744f0860.png" />
 </h1>
 
 # Agencia de Viagens - Redux
@@ -14,10 +14,10 @@ Desktop
  <img src="https://user-images.githubusercontent.com/67026555/222967354-abdf54d6-e43e-4b9b-a338-36faeb556bd7.png" alt="app-desktop"/>
 </p>
 
-## Funcionando
+## Funcionando - Pagina das Reservas
 
 <p align="center"> 
- <img src="" alt="app-result"/>
+ <img src="https://user-images.githubusercontent.com/67026555/222969814-49eb318d-d887-4819-8d88-8e0d2fe288e3.png" alt="app-result"/>
 </p>
 
 ## 🚀 Tecnologias Ultilizadas
